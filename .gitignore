@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/git,macos,python,django,pycharm
 
 ### Project Custom ###
+.conf-secret/
 .idea/
 django_tutorial_env
 
