@@ -1,9 +1,11 @@
-# Created by https://www.gitignore.io/api/git,macos,python,django,pycharm
-
 ### Project Custom ###
 .conf-secret/
 .idea/
+/static
+static_root/
 django_tutorial_env
+
+# Created by https://www.gitignore.io/api/git,sass,macos,python,django,pycharm
 
 ### Django ###
 *.log
@@ -202,4 +204,8 @@ ENV/
 # mkdocs documentation
 /site
 
-# End of https://www.gitignore.io/api/git,macos,python,django,pycharm
+### Sass ###
+.sass-cache/
+*.css.map
+
+# End of https://www.gitignore.io/api/git,sass,macos,python,django,pycharm
